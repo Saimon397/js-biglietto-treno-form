@@ -12,7 +12,8 @@ generateButton.addEventListener('click', function () {
 
     if (Category === 'under') {
         FinalPrice *= 0.8;
-    } else if (Category === 'over') {
+    }
+    else if (Category === 'over') {
         FinalPrice *= 0.6;
     }
     console.log(`Il prezzo del biglietto è ${FinalPrice.toFixed(2)} \u20AC`);
@@ -20,7 +21,8 @@ generateButton.addEventListener('click', function () {
     let TicketType = 'Biglietto Standard';
     if (Category === 'under') {
         TicketType = 'Biglietto Under';
-    } else if (Category === 'over') {
+    }
+    else if (Category === 'over') {
         TicketType = 'Biglietto Over';
     }
 
