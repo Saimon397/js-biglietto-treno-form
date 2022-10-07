@@ -28,7 +28,6 @@ generateButton.addEventListener('click', function () {
     }
 
     let CarriageNumber = Math.floor(Math.random() * 10) + 1;
-
     let CpNumber = Math.floor(Math.random() * 1000) + 1;
 
     document.getElementById('UserName').innerHTML = FullName;
