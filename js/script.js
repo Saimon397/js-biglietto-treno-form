@@ -16,6 +16,7 @@ generateButton.addEventListener('click', function () {
     else if (Category === 'over') {
         FinalPrice *= 0.6;
     }
+
     console.log(`Il prezzo del biglietto è ${FinalPrice.toFixed(2)} \u20AC`);
 
     let TicketType = 'Biglietto Standard';
